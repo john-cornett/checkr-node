@@ -9,10 +9,11 @@ Checkr.candidates.create({
     phone: '5555555555',
     zipcode: '90401',
     dob: '1970-01-22',
-    ssn: '543-43-4645',
+    ssn: '847-43-4645',
     driver_license_state: 'CA',
     driver_license_number: 'F211165'
 }, function (err, res) {
     console.log(res);
 });
 /* jshint camelcase: true */
+
