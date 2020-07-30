@@ -1,17 +1,38 @@
 {
-  "name": "checkr-api",
-  "description": "Checkr Node.js Bindings",
-  "keywords": [
-    "checkr",
-    "checkr-node",
-    "rest",
-    "api",
-    "wrapper",
-    "checkr.com"
+  "_from": "checkr-api",
+  "_id": "checkr-api@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-nFNSCBe+9X/ogn80EipLu34KVJM=",
+  "_location": "/checkr-api",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "checkr-api",
+    "name": "checkr-api",
+    "escapedName": "checkr-api",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "version": "1.0.2",
-  "homepage": "https://github.com/shrav/checkr-node",
-  "author": "Shrav Mehta <shravvmehtaa@gmail.com.com> (https://www.shravmehta.com/)",
+  "_resolved": "https://registry.npmjs.org/checkr-api/-/checkr-api-1.0.1.tgz",
+  "_shasum": "9c53520817bef57fe8827f34122a4bbb7e0a5493",
+  "_spec": "checkr-api",
+  "_where": "C:\\Users\\John\\Clients\\Vixster\\vixster-server",
+  "author": {
+    "name": "Shrav Mehta",
+    "email": "shravvmehtaa@gmail.com.com",
+    "url": "https://www.shravmehta.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/shrav/checkr-node/issues"
+  },
+  "bugs:": "https://github.com/shrav/checkr-node/issues",
+  "bundleDependencies": false,
   "dependencies": {
     "coveralls": "^2.11.1",
     "gulp": "^3.8.6",
@@ -19,40 +40,51 @@
     "gulp-load-plugins": "^0.5.3",
     "gulp-mocha": "^0.5.2",
     "mocha-lcov-reporter": "0.0.1",
-    "reqwest": "^2.0.5",
-    "xhr2": "^0.1.3"
+    "request": "^2.39.0"
   },
+  "deprecated": false,
+  "description": "Checkr Node.js Bindings",
   "devDependencies": {
-    "gulp": "~3.8.6",
-    "gulp-jshint": "~1.8.2",
     "chai": "^1.9.1",
-    "yargs": "^1.3.1",
+    "gulp": "~3.8.6",
+    "gulp-clean": "^0.3.1",
+    "gulp-exit": "0.0.2",
+    "gulp-istanbul": "~0.2.1",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-jscs": "^1.0.0",
+    "gulp-jshint": "~1.8.2",
     "gulp-load-plugins": "^0.5.3",
+    "gulp-mocha": "~0.5.2",
+    "gulp-util": "^3.0.0",
+    "istanbul": "^0.3.0",
     "jshint-stylish": "~0.4.0",
     "mocha": "~1.21.3",
-    "gulp-mocha": "~0.5.2",
-    "gulp-istanbul": "~0.2.1",
-    "istanbul": "^0.3.0",
-    "gulp-jscs": "^1.0.0",
-    "gulp-istanbul-enforcer": "^1.0.3",
-    "gulp-exit": "0.0.2",
-    "gulp-clean": "^0.3.1",
-    "gulp-util": "^3.0.0"
+    "yargs": "^1.3.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shrav/checkr-node"
-  },
-  "bugs:": "https://github.com/shrav/checkr-node/issues",
-  "main": "./lib/index",
   "engines": {
     "node": ">= 0.8.0"
   },
+  "homepage": "https://github.com/shrav/checkr-node",
+  "keywords": [
+    "checkr",
+    "checkr-node",
+    "rest",
+    "api",
+    "wrapper",
+    "checkr.io"
+  ],
+  "main": "./lib/index",
+  "name": "checkr-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrav/checkr-node.git"
+  },
   "scripts": {
-    "test": "gulp test",
+    "coveralls": "gulp coveralls",
     "enforce": "gulp enforce",
     "lint": "gulp lint",
     "style": "gulp style",
-    "coveralls": "gulp coveralls"
-  }
+    "test": "gulp test"
+  },
+  "version": "1.0.1"
 }

@@ -1,5 +1,5 @@
-var CheckrFactory = require('../lib/index.js');
-var Checkr = new CheckrFactory('83ebeabdec09f6670863766f792ead24d61fe3f9');
+var checkrFactory = require('../lib/index.js');
+var Checkr = new checkrFactory('83ebeabdec09f6670863766f792ead24d61fe3f9');
 // var chai = require('chai');
 // var expect = chai.expect;
 
