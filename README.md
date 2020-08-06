@@ -1,3 +1,5 @@
+# THIS MODULE WORKS WITH CHECKR.COM (formerly CHECKR.IO) AS OF 2020-08-06
+
 # Checkr Node.js Bindings
 [![NPM version](https://badge.fury.io/js/checkr-api.svg)](https://npmjs.org/package/checkr-api) [![Downloads](http://img.shields.io/npm/dm/checkr-api.svg)](https://npmjs.org/package/checkr-api)  [![Build Status](https://travis-ci.org/shrav/checkr-node.svg?branch=master)](https://travis-ci.org/shrav/checkr-node) [![Dependency Status](http://img.shields.io/gemnasium/shrav/checkr-node.svg)](https://gemnasium.com/shrav/checkr-node) [![Coverage Status](https://img.shields.io/coveralls/shrav/checkr-node.svg)](https://coveralls.io/r/shrav/checkr-node?branch=master)
 
